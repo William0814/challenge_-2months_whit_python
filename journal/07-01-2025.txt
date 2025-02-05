@@ -1,0 +1,3 @@
+Mood level: 9
+thought for this day: date = input("Enter today's date: ")
+
