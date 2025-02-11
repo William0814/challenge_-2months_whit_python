@@ -1,4 +1,6 @@
-from funtions import get_employs
+# from functions import get_employs, write_employs
+import functions
+
 
 print('--- Welcome to the Program of Employs ---')
 
@@ -9,14 +11,13 @@ while True:
     if user_action.startswith('add'):
         employ = user_action[4:] + '\n'
 
-        employs = get_employs()
+        employs = functions.get_employs()
 
         employs.append(employ.title())
-        with open('Employs.txt', 'w') as file:
-            employs = file.writelines(employs)
+        functions.write_employs(employs)
 
     elif 'show' in user_action:
-        employs = get_employs()
+        employs = functions.get_employs()
 
         # new_todos = [item.strip('\n') for item in todos]
         for index, item in enumerate(employs):
@@ -28,7 +29,7 @@ while True:
         try:
             print('Here is names exiting:')
             print('----------------------')
-            employs = get_employs()
+            employs = functions.get_employs()
 
             for index, item in enumerate(employs):
                 item = item.strip('\n')
@@ -40,8 +41,7 @@ while True:
             employs[number] = new_employ.title() + '\n'
             print(f'The new name is: {new_employ.title()}')
 
-            with open('Employs.txt', 'w') as file:
-                employs = file.writelines(employs)
+            functions.write_employs(employs)
 
         except ValueError or IndexError:
             print('Your command is not valid...')
@@ -51,14 +51,13 @@ while True:
         try:
             number = int(user_action[7:])
 
-            employs = get_employs()
+            employs = functions.get_employs()
 
             index = number - 1
             name_removed = employs[index].strip()
             employs.pop(index)
 
-            with open('Employs.txt', 'w') as file:
-                employs = file.writelines(employs)
+            functions.write_employs(employs)
 
             print(f'Name --{name_removed}-- was removed from the list.')
         except IndexError:
