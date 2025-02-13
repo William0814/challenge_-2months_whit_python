@@ -1,0 +1,6 @@
+[{"question_text": "When is the president from EEUU ?",
+"alternatives": ["Obama", "Karther", "Madonna", "Trump"],
+"correct_answer": 4},
+  {"question_text": "When was Freddy Mercury?",
+    "alternatives": ["A politic", "Rock Star", "porn star", "your Father"],
+  "correct_answer": 2}]
