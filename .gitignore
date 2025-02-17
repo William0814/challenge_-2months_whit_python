@@ -1,7 +1,9 @@
 /.venv/
 /exerciseMultipleRead/
 /files/
-/.ide/
+/.idea/
 /exerciseMultiplerad/
 /journal/
-Albania.txt
+/env/
+/gui-env/
+/gui_env/

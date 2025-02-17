@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3663832-34df-4c69-8c6c-e4e9cb5f5c9c" name="Changes" comment="" />
+    <list default="true" id="c3663832-34df-4c69-8c6c-e4e9cb5f5c9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/env/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python3.10" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python3.10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui-env/lib64" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,51 +31,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bonus.executor": "Run",
-    "Python.bonus1.executor": "Run",
-    "Python.bonus10.executor": "Run",
-    "Python.bonus2.executor": "Run",
-    "Python.bonus3.executor": "Run",
-    "Python.bonus4.executor": "Run",
-    "Python.bonus5 (1).executor": "Run",
-    "Python.bonus5.executor": "Run",
-    "Python.bonus6.executor": "Run",
-    "Python.bonus7.executor": "Run",
-    "Python.bonus8 (1).executor": "Run",
-    "Python.bonus8.executor": "Run",
-    "Python.copy_file.executor": "Run",
-    "Python.countries.executor": "Run",
-    "Python.create_files.executor": "Run",
-    "Python.cuestionary.executor": "Run",
-    "Python.delete_write.executor": "Run",
-    "Python.e1.executor": "Run",
-    "Python.e2.executor": "Run",
-    "Python.e3.executor": "Run",
-    "Python.e4.executor": "Run",
-    "Python.example.executor": "Run",
-    "Python.file_exercise.executor": "Run",
-    "Python.funtions.executor": "Run",
-    "Python.gui.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_case.executor": "Run",
-    "Python.main_if.executor": "Run",
-    "Python.members_exercise.executor": "Run",
-    "Python.random_numbers.executor": "Run",
-    "Python.read.executor": "Run",
-    "Python.read_multiple (1).executor": "Run",
-    "Python.read_multiple.executor": "Run",
-    "Python.replace.executor": "Run",
-    "Python.user.executor": "Run",
-    "Python.write.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "more__code",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bonus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus8 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.countries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cuestionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_write.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funtions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_if.executor&quot;: &quot;Run&quot;,
+    &quot;Python.members_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_multiple (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_multiple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.write.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\William\PycharmProjects\PythonProject" />
@@ -155,8 +161,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (PythonProject)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
